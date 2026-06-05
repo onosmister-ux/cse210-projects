@@ -9,7 +9,6 @@ public class Customer
         _address = address;
     }
 
-
     public bool LivesInUSA()
     {
         return _address.IsUSA();
